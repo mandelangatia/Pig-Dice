@@ -2,9 +2,9 @@ body{
   font-style: italic;
   font-family: monospace;
   text-align: justify;
-  color: blue;
+  color: black;
   background-color: cyan;
-  /*background-image: url(pig.jpg);*/
+  background-image: url(pig1.jpg)
 }
 #thisroll {
   padding-top: 150px;
