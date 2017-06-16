@@ -1,0 +1,25 @@
+body{
+  font-style: italic;
+  font-family: monospace;
+  text-align: justify;
+  color: blue;
+  background-color: cyan;
+}
+#thisroll {
+  padding-top: 150px;
+  font-size: 700%;
+
+}
+
+.container p {
+  padding-left: 350px;
+  font-size: 300%
+}
+
+#player2 {
+  display: none;
+}
+h1{
+  font-family: monospace;
+  text-align: center;
+}
