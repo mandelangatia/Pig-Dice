@@ -18,7 +18,8 @@ Roll.prototype.turn = function() {
     }
     return this.total;
 };
-// User Interface Logic
+
+// user interface logic
 $(document).ready(function() {
   var newroll = new Roll();
   $("#rollbutton1 button").click(function() {
@@ -26,7 +27,6 @@ $(document).ready(function() {
     var Rollbalance = newroll.turn();
     $("#score1").html(Rollbalance);
   });
-  // 
   $("#holdbutton1 button").click(function() {
       var holdnumber = $("#Total1").text() * 1;
         var displaytotal = holdnumber + newroll.total;
@@ -39,13 +39,11 @@ $(document).ready(function() {
             alert ("Player 1 has won!!!!!!!!!!")
         }
   });
-  //
   $("#rollbutton2 button").click(function() {
     event.preventDefault();
     var Rollbalance = newroll.turn();
     $("#score2").html(Rollbalance);
   });
-  //
   $("#holdbutton2 button").click(function() {
       var holdnumber = $("#Total2").text() * 1;
       var displaytotal = holdnumber + newroll.total;
